@@ -1,4 +1,6 @@
-# metube
+# MeTube
+
+A personalized app to watch your favorite videos.
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
