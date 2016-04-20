@@ -56,6 +56,14 @@ body {
   }
 }
 
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 body {
   background-color: black;
 }
@@ -71,8 +79,7 @@ body {
 .col-md-2 {
   margin: 7px;
   background-color: #B9E8FF;
-  padding: 4px;
-  height: 175px;
+  height: 145px;
   text-align: center;
 }
 
@@ -86,5 +93,8 @@ a {
 }
 
 .video-title {
-  height: 48px;
+  height: 35px;
+  h5 {
+    @include vertical-align();
+  }
 }

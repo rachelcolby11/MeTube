@@ -5,7 +5,9 @@
 <div class="row">
   <div class="col-md-2" ng-repeat="video in showtunes">
     <a ng-href="{{ video.url }}">
-      <div class="video-title">{{ video.title }}</div>
+      <div class="video-title">
+        <h5>{{ video.title }}</h5>
+      </div>
       <!--    video thumbnail will go here -->      
       <img src='http://i3.ytimg.com/vi/JrbCFR1FsZk/default.jpg'>
     </a>
