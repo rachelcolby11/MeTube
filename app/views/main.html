@@ -5,11 +5,13 @@
 <div class="row">
   <div class="video" ng-repeat="video in showtunes">
     <a ng-href="{{ video.url }}">
-      <div class="video-title">
-        <h5>{{ video.title }}</h5>
+      <div class="top-section">
+        <div class="video-title">
+          <h5>{{ video.title }}</h5>
+          <h6>{{ video.musical }}</h6>
+        </div>
       </div>
       <!--       Next, add thumbnails and link to embedded video player to be displayed when video is clicked on.  
-      Also show musical title below video title
       -->
       <!--    video thumbnail will go here -->   
 

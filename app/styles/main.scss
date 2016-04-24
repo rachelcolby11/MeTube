@@ -93,9 +93,17 @@ a {
   color: black;
 }
 
-.video-title {
-  height: 35px;
-  h5 {
+.top-section {
+  margin: 5px;
+  height: 45px;
+  .video-title {
     @include vertical-align();
+    h5 {
+      margin-bottom: 5px;
+    }
+    h6 {
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
   }
 }
