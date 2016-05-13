@@ -9,12 +9,12 @@
  */
 angular.module('metubeApp')
   .controller('MainCtrl', function ($scope) {
-    
+
     $scope.showtunes = [
       {
         title: 'Satisfied',
         musical: 'Hamilton',
-        url: 'http://www.youtube.com/watch?v=JrbCFR1FsZk' 
+        url: 'https://www.youtube.com/watch?v=f0EqxnWxlvY'
       },
       {
         title: 'Not Getting Married Today',
@@ -35,7 +35,7 @@ angular.module('metubeApp')
         title: 'Jet Song',
         musical: 'West Side Story',
         url: 'https://www.youtube.com/watch?v=tlzdyUa-wx0'
-      },      
+      },
       {
         title: 'Wait for It',
         musical: 'Hamilton',
@@ -43,5 +43,3 @@ angular.module('metubeApp')
       }
     ];
   });
-
-       
