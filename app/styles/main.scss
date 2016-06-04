@@ -14,33 +14,23 @@ body {
   padding: 0;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
+/* side spacing for mobile first views */
 .header {
   padding-left: 15px;
   padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 
-  /* Make the masthead heading the same height as the navigation */
   h3 {
+    padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+    line-height: 60px;
   }
 }
 
 .container-narrow > hr {
   margin: 30px 0;
-}
-
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -93,7 +83,7 @@ a {
   color: black;
 }
 
-.top-section {
+.video-top-section {
   margin: 5px;
   height: 45px;
   .video-title {
