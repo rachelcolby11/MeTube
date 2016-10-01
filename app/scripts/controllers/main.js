@@ -49,4 +49,12 @@ angular.module('metubeApp')
       }
     ];
 
+    $scope.addImageToVideo = function() {
+      $scope.showtunes.forEach(function(showtune) {
+        showtune.imageSrc = 'http://i3.ytimg.com/vi/' + (showtune.url).split('v=')[1] + '/default.jpg';
+      });
+    };
+
+    $scope.addImageToVideo();
+
   });

@@ -4,18 +4,15 @@
 
 <div class="row">
   <div class="video" ng-repeat="video in showtunes">
-    <a ng-href="{{ video.url }}">
+    <a ng-href="{{ video.url }}" target="_blank">
       <div class="video-top-section">
         <div class="video-title">
           <h5>{{ video.title }}</h5>
           <h6>{{ video.musical }}</h6>
         </div>
       </div>
-      <!--       Next, add thumbnails and link to embedded video player to be displayed when video is clicked on.
-      -->
-      <!--    video thumbnail will go here -->
-
-      <img src='http://i3.ytimg.com/vi/JrbCFR1FsZk/default.jpg'>
+      <!--       Next, create embedded video player to be displayed when video is clicked, if it can be played outside of YouTube. -->
+      <img ng-src="{{ video.imageSrc }}">
     </a>
   </div>
 </div>
