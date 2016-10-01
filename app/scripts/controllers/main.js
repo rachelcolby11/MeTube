@@ -32,7 +32,7 @@ angular.module('metubeApp')
       {
         title: 'Being Alive',
         musical: 'Company',
-        url: 'https://youtu.be/vC-6TYlMnlo?t=1m25s',
+        url: 'https://www.youtube.com/watch?v=l_NPiKOrL60',
         embed: true
       },
       {
